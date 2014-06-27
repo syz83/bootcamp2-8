@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: #c1e6fc;
+}
+header img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+header ul {
+    padding: 0;
+    margin: 0;
+}
+header li {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#hero {
+    height: 400px;
+    background-image: url("../img/sky.jpg");
+}
+main {
+    background-color: #eaeaea;
+    padding-bottom: 50px;`
+}
+main .container {
+    position: relative;
+}
+main img {
+    display: block;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 5px solid #dddddd;
+}
+main article {
+    width: 80%;
+    padding: 25px;
+    float: right;
+    position: relative;
+    z-index: 1;
+    background-color: #ffffff;
+}
+main article:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    background-image: url("../img/mail.png");
+    background-repeat: repeat-x;
+}
+footer {
+    padding: 25px 0;
+    background-color: #303030;
+    color: #dddddd;
+}
+
+
+
+
+
+
+
+
